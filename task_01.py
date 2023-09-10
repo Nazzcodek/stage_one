@@ -20,8 +20,8 @@ def get_info() -> dict:
     utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Define GitHub URLs
-    github_file_url = 'https://github.com/username/Nazzcodek/stage_one'
     github_repo_url = 'https://github.com/Nazzcodek/stage_one'
+    github_file_url = 'https://github.com/Nazzcodek/stage_one/blob/master/task_01.py'
 
     # Create response dictionary
     response = {
