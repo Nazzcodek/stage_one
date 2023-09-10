@@ -17,7 +17,7 @@ def get_info() -> dict:
 
     # Get current day and time
     current_day = datetime.datetime.now().strftime('%A')
-    utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+    utc_time = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # Define GitHub URLs
     github_repo_url = 'https://github.com/Nazzcodek/stage_one'
